@@ -21,3 +21,9 @@
 # 踩坑
 1.提示*No variants found for 'app'. Check build files to ensure at least one variant exists.*。解决方法：选择settings，搜索android sdk，在sdk中下载android 8.0
 
+# 一些有用的链接
+
+1.远程调试（https://blog.csdn.net/cn_newer/article/details/59565364）
+
+2.流程指引（https://developer.dji.com/cn/mobile-sdk/documentation/introduction/index.html）
+
