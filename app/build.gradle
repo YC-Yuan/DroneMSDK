@@ -51,11 +51,12 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:27.+'
-    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:27.0.0'
+    //implementation 'com.android.support:appcompat-v7:25.0.0'
+    testImplementation 'junit:junit:4.13.1'
     implementation 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
-    implementation 'com.android.support:multidex:1.0.2'
+    implementation 'com.android.support:multidex:1.0.3'
     implementation('com.dji:dji-sdk:4.9', {
         //if your app needn't support Mavic 2 Pro and Mavic 2 Zoom, pls exclude the library-anti-distortion module
         //like following
